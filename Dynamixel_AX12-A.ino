@@ -1,8 +1,8 @@
-#include <AX12A.h> // Verificar o download desta biblioteca
+#include <AX12A.h> 
 
 #define DirectionPin  (1u) // Porta digital sempre 1 (TX)
 #define BaudRate    (1000000ul)
-#define ID    (6u) // ID do seu motor
+#define ID    (6u) // ID do motor
 
 
 void setup()
